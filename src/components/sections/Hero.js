@@ -73,7 +73,8 @@ const Hero = ({
                   <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
                     Get started
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/oliviagolf2020/First-day/settings/pages/">
+                  <Button tag="a" color="blue
+                  " wideMobile href="https://github.com/oliviagolf2020/First-day/settings/pages/">
                     View on Github
                     </Button>
                 </ButtonGroup>
