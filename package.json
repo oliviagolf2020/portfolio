@@ -2,7 +2,7 @@
   "name": "open-react-template",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://oliviagolf2020.github.io/portfolo/",
+  "homepage":"https://oliviagolf2020.github.io/portfolio/",
   "dependencies": {
 
     "classnames": "^2.2.6",
