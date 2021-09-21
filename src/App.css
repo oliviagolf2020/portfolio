@@ -10,8 +10,13 @@ border-color: chocolate;
 
 .easter-egg-avocado {
     border-radius: 1000rem;
+    background-color: darkturquoise;
 }
 
-.innner-avacado {
+.inner-avacado {
     background-color: greenyellow;
+}
+
+.inner-cat {
+    background-color: darkslategray;
 }
