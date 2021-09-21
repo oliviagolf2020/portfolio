@@ -1,3 +1,17 @@
-* {
-    background-color: rgb(19, 92, 177);
+* .easter-egg-avocado{ 
+    width: 80rem;
+    height: 100vh;
+
+    color: rgb(189, 22, 22);
+    background-color: blueviolet;
+border-color: chocolate;
+    
+}
+
+.easter-egg-avocado {
+    border-radius: 1000rem;
+}
+
+.innner-avacado {
+    background-color: greenyellow;
 }
