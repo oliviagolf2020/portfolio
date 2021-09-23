@@ -11,7 +11,7 @@ const Easteregg = () => {
            
             </div>
 
-            <div class="inner-cat">
+            <div class="inner-avacado">
                 Southwestern
            
             </div>
