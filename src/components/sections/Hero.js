@@ -70,7 +70,7 @@ const Hero = ({
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="dark" wideMobile href="https://cruip.com/">
+                  <Button tag="a" color="dark" wideMobile href="/portfolio/easter-egg">
                     Dorm tour video 
 
                     </Button>
