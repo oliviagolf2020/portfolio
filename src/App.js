@@ -12,7 +12,7 @@ import Home from './views/Home';
 import Easteregg from './views/Easteregg';
 
 // Initialize Google Analytics
-ReactGA.initialize(process.env.REACT_APP_GA_CODE);
+ReactGA.initialize('G6-CDQ8YSVF7');
 
 const trackPage = page => {
   ReactGA.set({ page });
