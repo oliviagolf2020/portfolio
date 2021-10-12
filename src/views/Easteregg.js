@@ -3,7 +3,7 @@ import React from 'react';
 const Easteregg = () => {
     return (
          <div class="easter-egg-avocado">
-           College Tips and moving in tricks 
+           Dorm room videos
     
            <div class="inner-avacado">
                 Olivia

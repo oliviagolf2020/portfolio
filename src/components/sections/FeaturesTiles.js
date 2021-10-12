@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Build up the whole picture',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'College checklist',
+    paragraph: 'Click on the ions below to see images, helpfull hits and more'
   };
 
   return (
@@ -184,7 +184,7 @@ const FeaturesTiles = ({
                     How to deal with home sickness
                     </h4>
                   <p className="m-0 text-sm">
-                    The best home remedies to help with homesickness
+                    The best home remedies to help with homesickness 
                     </p>
                 </div>
               </div>
