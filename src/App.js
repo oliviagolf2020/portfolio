@@ -10,6 +10,8 @@ import LayoutDefault from './layouts/LayoutDefault';
 // Views 
 import Home from './views/Home';
 import Easteregg from './views/Easteregg';
+import DormRoomTips from './views/DormRoomTips';
+import HowToManageTime from './views/HowToManageTime';
 
 // Initialize Google Analytics
 ReactGA.initialize('G6-CDQ8YSVF7');
@@ -39,6 +41,8 @@ const App = () => {
         <Switch>
           <AppRoute exact path="/portfolio" component={Home} layout={LayoutDefault} />
           <AppRoute exact path="/portfolio/Easter-egg" component= {Easteregg} />
+          <AppRoute exact path="/portfolio/DormRoomTips" component= {DormRoomTips} />
+          <AppRoute exact path="/portfolio/HowToManageTime" component= {HowToManageTime} />
         </Switch>
       )} />
   );

@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import Button from '../elements/Button';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -29,7 +30,7 @@ const FeaturesTiles = ({
     bottomOuterDivider && 'has-bottom-divider',
     hasBgColor && 'has-bg-color',
     invertColor && 'invert-color',
-    className
+    className 
   );
 
   const innerClasses = classNames(
@@ -58,30 +59,35 @@ const FeaturesTiles = ({
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
 
-            <div className="tiles-item reveal-from-bottom">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
-                      alt="Features tile icon 01"
-                      width={64}
-                      height={64} />
+            
+          <div className="tiles-item reveal-from-bottom">
+            <div className="tiles-item-inner">
+                <Button tag="a" color="dark" wideMobile href="/portfolio/DormRoomTips"> 
+                  <div className="features-tiles-item-header">
+                    <div className="features-tiles-item-image mb-16">
+                      <Image
+                        src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                        alt="Features tile icon 01"
+                        width={64}
+                        height={64} />
+                    </div>
+                  </div>
+                </Button>
+                  <div className="features-tiles-item-content">
+                    <h4 className="mt-0 mb-8">
+                      Dorm Room Tips
+                      </h4>
+                    <p className="m-0 text-sm">
+                      Decoration Hacks
+                      </p>
                   </div>
                 </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Dorm Room Tips
-                    </h4>
-                  <p className="m-0 text-sm">
-                    Decoration Hacks
-                    </p>
-                </div>
-              </div>
             </div>
+            
 
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
+              <Button tag="a" color="dark" wideMobile href="/portfolio/HowToManageTime"> 
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
@@ -91,6 +97,7 @@ const FeaturesTiles = ({
                       height={64} />
                   </div>
                 </div>
+                </Button>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
                     How To  manage time
@@ -147,7 +154,7 @@ const FeaturesTiles = ({
             </div>
 
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
-              <div className="tiles-item-inner">
+              <div className="tiles-itemik-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
