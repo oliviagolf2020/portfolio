@@ -7,12 +7,12 @@ const DormRoomTips = () => {
            Dorm room tips
     
            <div class="inner-avacado">
-                Olivia
+                Furniture ideas, 
            
             </div>
 
             <div class="inner-avacado">
-                Southwestern
+                Having a shelf is great for organizing, plus it can fit under your bed or anywhere else to save room. 
            
             </div>
             <Image

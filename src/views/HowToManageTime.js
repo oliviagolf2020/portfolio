@@ -7,21 +7,23 @@ const HowToManageTime = () => {
            How to manage time
     
            <div class="inner-avacado">
-                Olivia
+                Having a planner works great for  busy schedule 
            
             </div>
 
             <div class="inner-avacado">
-                Southwestern
+                I found this one at Walmart
            
             </div>
-            <div class="image-border">
+            <div class="">
                 <Image
-                        src={require('../assets/images/Shelf.jpg')}
+                        src={require('../assets/images/calander.jpg')}
+                        src={require('../assets/images/planner.jpg')}
                         width={480}
                         height={720} />
             </div>
         </div> 
+    
    );
 
 };

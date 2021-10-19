@@ -1,27 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1e595fbe105313c26a6b69a75077a8ba",
+    "revision": "b3a44b398f76d43b98e206ee88a3c5f4",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "0319093942edba86e2cb",
-    "url": "/portfolio/static/css/main.c46f5d34.chunk.css"
+    "revision": "ed63ab3c151969869795",
+    "url": "/portfolio/static/css/main.43e8e30a.chunk.css"
   },
   {
-    "revision": "3275c2a99c5680dbdd9b",
-    "url": "/portfolio/static/js/2.5a3542f6.chunk.js"
+    "revision": "ef9176530027d94f97ba",
+    "url": "/portfolio/static/js/2.2412c792.chunk.js"
   },
   {
     "revision": "0def066106b5692cd5c135dcafc5767d",
-    "url": "/portfolio/static/js/2.5a3542f6.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.2412c792.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0319093942edba86e2cb",
-    "url": "/portfolio/static/js/main.df35dff9.chunk.js"
+    "revision": "ed63ab3c151969869795",
+    "url": "/portfolio/static/js/main.5a751c1b.chunk.js"
   },
   {
     "revision": "62dea3017bd2ba8df9d9",
     "url": "/portfolio/static/js/runtime-main.0a162c52.js"
+  },
+  {
+    "revision": "6e2532cfa7097a99159e233d8cc36647",
+    "url": "/portfolio/static/media/Shelf.6e2532cf.jpg"
+  },
+  {
+    "revision": "64c7d5ef95e05c13b3b2e7cd07a8fc65",
+    "url": "/portfolio/static/media/calander.64c7d5ef.jpg"
   },
   {
     "revision": "3ce357e71a836a86691b904396a8955c",
@@ -76,7 +84,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/logo.2810a88b.svg"
   },
   {
-    "revision": "a622fc5dd8adcdd27ea42218385013b4",
-    "url": "/portfolio/static/media/video-placeholder.a622fc5d.jpg"
+    "revision": "8607d1850b17bd9a13eb1d5a9a3fcee2",
+    "url": "/portfolio/static/media/planner.8607d185.jpg"
   }
 ]);
